@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SecondActivity"
+    android:orientation="vertical"
+    android:background="@drawable/background2">
+    <TextView
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+
+        android:textSize="30sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:id="@+id/club_legacy"
+        android:gravity="center"
+        android:textColor="@color/black">
+
+    </TextView>
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        app:cardCornerRadius="20dp"
+        app:cardElevation="10dp"
+        app:cardBackgroundColor="#FFFFFF"
+        app:strokeColor="#DDDDDD"
+        app:strokeWidth="1dp"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textSize="15sp"
+            android:id="@+id/team"
+            android:paddingTop="15dp"
+
+            >
+
+        </TextView>
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+</LinearLayout>
